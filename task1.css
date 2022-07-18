@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    height: 120px;
+    font-size: 1.2rem
+    ;
+    
+}
+.logo{
+    padding: 1%;
+    flex-basis: 35%;
+}
+
+.logo p, .menu i{
+    color: grey;
+}
+
+.menu ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 1.6rem;
+    
+
+}
+.menu ul li{
+    padding: 10px  25px;
+}
+.menu ul li h5:hover {
+color: rgb(15, 177, 15);
+}
+
+/* slide show section  */
+.image{
+    display: flex;
+    
+}
+.image img{
+    width: 100vw;
+    height: 80vh;
+    margin-bottom: 0px;
+}
+
+/* main content section  */
+.content{
+    display: flex;
+    margin: 5px;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.a , .b, .c ,.d {
+    color: black;
+    padding: 50px;
+   
+}
+.content-icon{
+    background-color: green;
+    width: 50px;
+    height: 65px;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    /* margin:10px */
+}
+.content-heading{
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    /* font-size: 1.2rem; */
+    color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.content p {
+    width: 250px;
+    font-size: large;
+    line-height: 1.5;
+    color: grey;
+    margin-bottom: 20px;
+    /* margin-left: 15px; */
+   /* height: 100px; */
+}
+.content a{
+    font-size: 1.5rem;
+    color: rgb(22, 172, 22);
+}
